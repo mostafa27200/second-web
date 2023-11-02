@@ -1397,6 +1397,14 @@ i {
   margin: 20px;
   gap: 20px;
 }
+@media (max-width: 767px) {
+  .friends-page {
+    grid-template-columns: minmax(200px, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+}
 .friends-page .friend {
   padding: 20px;
   position: relative;
