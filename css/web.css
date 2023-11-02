@@ -1495,6 +1495,16 @@ i {
   border-radius: 6px;
   font-size: 13px;
 }
+@media (max-width: 387px) {
+  .friends-page .friend .last-cont div a:first-child {
+    padding: 2px 8px;
+    font-size: 13px;
+  }
+  .friends-page .friend .last-cont div a:nth-child(2) {
+    padding: 2px 7px;
+    font-size: 13px;
+  }
+}
 /* end friends */
 
 /* start files */
